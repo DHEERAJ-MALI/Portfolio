@@ -1,0 +1,498 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: rgb(0, 0, 33);
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #3333338d;
+    z-index: 10;
+   
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgba(1, 1, 20, 0.805);
+    box-shadow: 10px 10px 10px rgba(76, 62, 62, 0.53);
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    list-style: none;
+    margin: 0 23px;
+}
+nav ul li a{
+   text-decoration: none;
+   color: white;
+}
+nav ul li a:hover{
+    color: rgb(215, 142, 210);
+ }
+.right{
+    position: relative;
+}
+.menu-toggle {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    position: absolute;
+    font-size: 1.7em;
+    top: 23px;
+    right: 20px;
+}
+
+.menu-toggle .bar {
+    height: 3px;
+    width: 25px;
+    background-color: white;
+    margin: 4px 0;
+}
+.left{
+    font-size: 2rem;
+    font-weight: 600;
+}
+.firstsection{
+    display: flex;
+    justify-content: space-around;
+    margin: 70px 0px;
+    align-items: center;
+}
+.firstsection div{
+    width: 30%;
+}
+.leftsection div{
+    width: 100%
+}
+.name{
+    color: rgb(170, 107, 228);
+}
+.leftsection{
+    font-size: 2.5rem;
+}
+.rightsection img{
+    margin: 50px 0px;
+    width: 95%;
+}
+.resumegithub button{
+    border-radius: 6px;
+    background-color: rgb(219, 209, 228);
+    cursor:pointer;
+}
+.resumegithub{
+    display: flex;
+    align-items: center;
+    margin: 20px 0px;
+    gap: 30px;
+}
+.resumegithub p{
+    font-size: 15px;
+    font-weight: 530;
+    padding: 5px 15px;
+   
+}
+
+#element{
+    color: aquamarine;
+}
+.seperation{
+    height: 2px;
+    background-color: rgb(166, 90, 237);
+    max-width: 90%;
+    margin: auto;
+}
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0px;
+    font-size: 2rem;
+}
+.ssmain{
+    display: flex;
+    max-width: 90%;
+    margin: auto;
+}
+.secondleft>h1{
+    display: flex;
+    justify-content: center;
+    margin: 40px 0px;
+    font-size: 2.5rem;
+}
+.secondleft{
+    width: 50%;
+    margin: 0px 10px;
+}
+.skills{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    place-items: center;
+    margin: 0px 10px;
+}
+.skills img{
+    margin: 30px;
+}
+.secondright>h1{
+    display: flex;
+    justify-content: center;
+    margin: 40px 0px;
+    font-size: 2.5rem;
+}
+.secondright{
+    width: 50%;
+    margin: 0px 10px;
+}
+.education{
+    margin: 30px 0px;
+    padding: 30px 0px;
+}
+.education > div{
+    display: flex;
+    align-items: center;
+}
+.education img{
+    width: 95px;
+}
+.edu{
+    margin-bottom: 30px;
+    background-color: rgb(44, 1, 81);
+    padding: 20px;
+    border-radius: 2rem;
+}
+.heading{
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+.detail{
+    margin-left: 20px;
+}
+.projects {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 90px 0px;
+    font-size: 2rem;
+}
+.proj{
+    margin: 20px;
+    background-color: rgb(50, 15, 101);
+    display: flex;
+    justify-content: center;
+    max-width: 90%;
+    margin: 10% auto;
+    border-radius: 20px;
+    box-shadow: 10px 10px 5px rgb(66, 163, 195);
+    
+}
+.projectimage{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.projectdetail{
+    width: 60%;
+    padding: 10px;
+}
+.projectimage img{
+    width: 26vw;
+    border-radius: 15px;
+    object-fit: cover;
+    border: 1px solid;
+    box-shadow: 10px 10px 10px black;
+    
+}
+.proj h1{
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    margin: 10px 0px;
+}
+.proj p{
+    font-size: 1.2rem;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
+    gap: 30px;
+}
+.buttons button{
+    border-radius: 6px;
+    background-color: rgb(219, 209, 228);
+    cursor:pointer;
+}
+
+.buttons p{
+    font-size: 15px;
+    font-weight: 530;
+    padding: 5px;
+   
+}
+.contactus{
+    background-color: rgb(89, 82, 216);
+    max-width: 80%;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    margin: 10% auto;
+    border-radius: 40px;
+    border: 4px solid;
+}
+.contactdata{
+    margin: 40px auto;
+    width: 50%;
+}
+.contactdata h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    margin: 10px 0px;
+}
+.contactdetail{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.me{
+    width: 70%;
+    height: 40px;
+    border-radius: 10px;
+    margin: 3px 0px;
+}
+input{
+    padding-left: 10px;
+}
+textarea{
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.message{
+    width: 70%;
+    height: 300px;
+    border-radius: 10px;
+    margin: 3px 0px;
+}
+.contactgif{
+    width: 50%;
+    margin: auto auto;
+}
+.contactgif img{
+    width: 37vw;
+    border-radius: 30px;
+}
+.send{
+    width: 72%;
+    height: 40px;
+    border-radius: 10px;
+    margin: 3px 0px;
+    background-color: rgb(55, 141, 55);
+}
+.profile{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin: 40px 0px;
+}
+.profiledata{
+    width: 50vw;
+    margin: 20px 0px;
+}
+.profilephoto{
+    width: 50vw;
+}
+.profilephoto img{
+    height: 200px;
+    border-radius: 400px;
+    border: 1px solid;
+}
+.profiledata:nth-child(1){
+    font-size: 60px;
+    color: rgb(119, 61, 255);
+}
+.profiledata:nth-child(2){
+    display: flex;
+    align-items: center;
+}
+.copyright{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
+}
+
+@media (max-width: 1203px){
+    .about{
+        margin: 20px 0px;
+        
+    }
+    .ssmain{
+        display: flex;
+        max-width: 90%;
+        margin: auto;
+    }
+    .secondleft>h1{
+        display: flex;
+        justify-content: center;
+        margin: 40px 0px;
+        font-size: 2.5rem;
+    }
+    .secondleft{
+        width: 50%;
+        margin: 0px 10px;
+    }
+    .skills{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    
+    .projectdetail{
+        padding: 10px 30px;
+    }
+    
+}
+@media (max-width: 768px){
+    .menu-toggle {
+        display: flex;
+    }
+    .nav-list {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        position: absolute;
+        top: 60px;
+        left: -30px;
+        background-color: #333;
+        text-align: center;
+    }
+    .nav-list.active {
+        display: flex;
+    }
+    .nav-item {
+        flex: 1 1 100%;
+        width: 100%;
+    }
+
+    
+    nav .right ul {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+    }
+    nav .right ul li {
+        margin: 10px 0;
+        text-align: center;
+    }
+    .menu-toggle {
+        display: flex;
+    }
+    .firstsection{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .firstsection div {
+        width: 75%;
+    }
+    .leftsection {
+        font-size: 1.6rem;
+    }
+    .ssmain{
+        display: flex;
+        flex-direction: column;
+    }
+    .skills img{
+        margin: 20px;
+        width: 70px;
+    }
+    .secondleft{
+        width:100%;
+        margin:auto;
+    }
+    .secondright{
+        width:100%;
+        margin: auto;
+    }
+    .proj{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .proj p{
+        font-size: 1rem;
+    }
+    .projectimage{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 20px;
+    }
+    .projectimage img{
+        width: 80vw;
+    }
+    .projectdetail{
+        width: 85%;
+        text-align:justify;
+    }
+    .contactus{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        max-width: 85%;
+    }
+    .contactgif{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .contactgif img{
+        width: 75vw;
+        margin: 15px 0px;
+    }
+    .contactdata{
+        width: 100%;
+    }
+    .message{
+        height: 200px;
+        width: 85%;
+    }
+    .send{
+        width: 89%;
+    }
+    .me{
+        width: 85%;
+    }
+    .profile{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .profiledata{
+        width: 100%;
+        margin: 0px 10px;
+    }
+    .profiledata:nth-child(1){
+        font-size: 50px;
+    }
+    .profiledata img{
+        height: 50px;
+    }
+}
